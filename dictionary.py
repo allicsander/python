@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#!/usr/bin/python3
 
 user = {"name":"Masha", "age": 24, "have_airplane": False}
 print (user)
