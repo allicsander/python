@@ -10,11 +10,21 @@
 
 
 
+def find_person(name):
+  while True:
+    if my_names.pop() == name:
+  	  print("{} нашелся!".format(name))
+  	  break
+
 my_names = ["Вася", "Маша", "Петя", "Валера", "Саша", "Даша"]
 
 
-while True:
-  if my_names.pop() == "Валера":
-  	print("Валера нашелся!")
-  	break
+find_person("Вася")
+
+def ask_user():
+	while True:
+		if "Хорошо"== input("Как дела?\n"):
+			break
+
+ask_user()
 
