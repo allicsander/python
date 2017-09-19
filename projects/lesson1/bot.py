@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-=======
-# /usr/bin/python3
->>>>>>> afda8bdd1483238193691ea8a1c96eac94255434
 
 from telegram.ext import Updater, CommandHandler,  MessageHandler, Filters
 import logging
