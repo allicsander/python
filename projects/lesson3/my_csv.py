@@ -6,8 +6,6 @@ new_answers = []
 for key in get_answers.answers:
     new_answers.append(dict(zip(['question', 'answer'], [key, get_answers.answers[key]])))
 
-print(new_answers)
-
 with open('new_answers.csv', 'w', encoding='UTF-8') as f:
     fields = ['question', 'answer']
     writer = csv.DictWriter(f, fields, delimiter=';')
