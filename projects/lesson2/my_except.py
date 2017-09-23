@@ -10,11 +10,6 @@
 # print(cut_cake(0))  	
 
 
-
-
-
-
-
 def ask_user():
 	while True:
 		try:
@@ -24,9 +19,6 @@ def ask_user():
 			print("\nit's time to stop. it's not OK")
 			break
         
-
-
-
 ask_user()
 
 
