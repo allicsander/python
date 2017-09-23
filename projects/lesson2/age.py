@@ -1,8 +1,6 @@
 #! /usr/bin/python3
 
-age = input("Введите ваш возрас: ")
-
-age = int(age)
+age = int(input("Введите ваш возрас: "))
 
 if age < 7:
   print ("В детский сад")

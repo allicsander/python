@@ -18,8 +18,8 @@ def find_person(name):
 
 my_names = ["Вася", "Маша", "Петя", "Валера", "Саша", "Даша"]
 
-
 find_person("Вася")
+
 
 def ask_user():
 	while True:
